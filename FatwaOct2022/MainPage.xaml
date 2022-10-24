@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FatwaOct2022.MainPage">
+
+    <StackLayout>
+        <ActivityIndicator VerticalOptions="Center" HorizontalOptions="Center" x:Name="activityindicator" Color="Blue" IsRunning="True"></ActivityIndicator>
+        <!--<WebView VerticalOptions="FillAndExpand" Navigating="WebView_Navigating" Navigated="WebView_Navigated" HorizontalOptions="FillAndExpand" Source="https://fatwairaq.com/"/>-->
+        <WebView VerticalOptions="FillAndExpand" Navigating="WebView_Navigating" Navigated="WebView_Navigated" HorizontalOptions="FillAndExpand" Source="https://app.starbucks.com/"/>
+    </StackLayout>
+
+</ContentPage>
